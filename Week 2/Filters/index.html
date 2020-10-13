@@ -10,7 +10,9 @@
 <body ng-app="Expr_Interp">
     <h1>Expressions and Interpolation</h1>
     <div ng-controller="msgController">
-        The message is: <br> {{name}} <br> {{say()}} <br>
+        The message is: <br> {{name}} <br> Original: {{say()}} <br>
+        New: {{sayBad()}} <br>
+        AddVal: {{addValue()}} <br> <br>
         {{ cost | currency }} ki pepsi mera bhai sexi. <br>
         <div>
             <br><br>
